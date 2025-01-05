@@ -1,0 +1,1 @@
+AVAILABLE_CURRENCY = ('RUB', 'USD', 'EUR')

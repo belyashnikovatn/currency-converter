@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Geist';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Geist-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Geist-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Lack-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'FunnelSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./FunnelSans-Regular.woff2") format("woff2");
+}

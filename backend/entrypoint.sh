@@ -1,0 +1,2 @@
+#!/bin/sh
+python manage.py makemigrations && python manage.py migrate --noinput && python manage.py initadmin && python manage.py collectstatic --no-input && cp -r /app/collected_static/. /backend_static/static/ && gunicorn -b 0.0.0.0:8000 currency_converter.wsgi
